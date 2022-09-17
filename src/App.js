@@ -12,10 +12,8 @@ function App() {
   window.addEventListener("load", () => {
     updateLoading(false);
   });
-  function displayloading() {
-    updateLoading(true);
-  }
-  function hideLoading() {}
+
+ 
 
   return (
     <React.Fragment>
